@@ -1,0 +1,84 @@
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fbb605;
+}
+
+li {
+  list-style: none;
+}
+
+.header-top {
+  padding: 10px 9.5% 0 8%;
+}
+.top-list {
+  float:right;
+  padding: 0 10px;
+}
+.container-fluid {
+  padding:0;
+}
+
+.logo {
+  width: 300px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  margin-right: 20px;
+  transition: 0.5s;
+  color: #ffffff;
+}
+.nav-link:hover {
+  color: #fbb605;
+}
+
+.social-links {
+  float: right;
+  padding:0;
+}
+
+.custom-nav {
+  /* background-color: #28282B; */
+  padding: 10px 10%;
+}
+
+.dropdown-toggle:after {
+  content: none;
+}
+
+
+.dropdown-menu {
+  background-color: #212529;
+}
+
+.dropdown-item {
+  color: #ffffff;
+  padding: 15px;
+}
+
+.navbar-toggler-icon {
+  border-color: #fbb605;
+}
+
+@media only screen and (max-width: 1050px) {
+  .social-links {
+    float:left;
+}
+}
+
+@media only screen and (max-width: 1240px ) {
+  .donate-btn {
+    display: none;
+}
+}
+
+@media only screen and (max-width: 991px ) {
+  .donate-btn {
+    display:block;
+    margin: 15px 0;
+}
+}
